@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("bg.jpg");
+overflow-x: hidden;
+}
+.title{
+  text-shadow:     0 1px 0 hsl(174,5%,80%),
+  0 2px 0 hsl(174,5%,75%),
+  0 3px 0 hsl(174,5%,70%),
+  0 4px 0 hsl(174,5%,66%),
+  0 5px 0 hsl(174,5%,64%),
+  0 6px 0 hsl(174,5%,62%),
+  0 7px 0 hsl(174,5%,61%),
+  0 8px 0 hsl(174,5%,60%),
+
+  0 0 5px rgba(0,0,0,.05),
+ 0 1px 3px rgba(0,0,0,.2),
+ 0 3px 5px rgba(0,0,0,.2),
+0 5px 10px rgba(0,0,0,.2),
+0 10px 10px rgba(0,0,0,.2),
+0 20px 20px rgba(0,0,0,.3);
+color: white;
+  text-align: center;
+  white-space: pre-wrap;
+  margin-top: 23px;
+
+
+}
+
+
+section{
+
+  background-image: url("overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+height: auto;
+
+
+}
+
+
+
+
+section .header{
+  font-variant: unicase;
+  text-transform: uppercase;
+  margin-top: 0;
+font-size: 30px;
+letter-spacing: 3px;
+font-weight: bold;
+font-family: Montserrat ;
+  color: white;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+section img{
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -40px;
+  /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+width: 280px;
+height: 280px;
+}
+.icons{
+
+  text-align: center;
+line-height: 270px;
+margin-bottom: -100px;
+
+}
+span{
+  font-style: italic;
+margin-left: 10px;
+font-family:   'Arial Narrow Bold', sans-serif;
+color: teal;
+}
+
+.nxt-prv{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.header, .img-thumbnail{
+  background-color: tomato !important;
+  border-color: tomato !important;
+}
+
+.icons i:hover{
+  color: rgb(88, 88, 88);
+  cursor: pointer;
+  text-shadow:  rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+footer{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10vh;
+  color: #eee;
+  
+}
